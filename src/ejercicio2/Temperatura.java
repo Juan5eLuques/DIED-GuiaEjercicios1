@@ -35,6 +35,14 @@ public class Temperatura {
 	
 	
 	
+	public double getGrados() {
+		return grados;
+	}
+
+	public void setGrados(double grados) {
+		this.grados = grados;
+	}
+
 	public void aumentar(Temperatura temperatura) {
 		if (temperatura.grados>0) {
 			if (this.escala==temperatura.escala) {
